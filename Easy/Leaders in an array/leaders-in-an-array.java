@@ -45,11 +45,11 @@ class Array {
 // } Driver Code Ends
 
 
-
 class Solution{
+    //Function to find the leaders in the array.
     static ArrayList<Integer> leaders(int arr[], int n){
-        
-        int maxEle = arr[n-1];
+        // Your code here
+                int maxEle = arr[n-1];
         
         ArrayList<Integer> res = new ArrayList<>();
         
@@ -63,5 +63,8 @@ class Solution{
 		
 		Collections.reverse(res);
         return res;
+        
+        
+        
     }
 }
